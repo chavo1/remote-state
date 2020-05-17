@@ -3,7 +3,7 @@ terraform {
   backend "remote" {
     hostname = "app.terraform.io"
     organization = "chavo4"
-    token = var.token
+    #token = var.token
     
     workspaces {
       name = "remote-state"
